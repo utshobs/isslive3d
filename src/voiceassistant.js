@@ -29,7 +29,7 @@ const recognition = new SpeechRecognition()
 btn.addEventListener('click', () => {
   
   const speech = new SpeechSynthesisUtterance()
-  speech.text = "Hello, I'm your space assistant. I will guide you ISS";
+  speech.text = "Hello, I'm your space assistant. I will guide you to International Space Station";
 
   
   voices = window.speechSynthesis.getVoices();
